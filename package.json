@@ -1,6 +1,6 @@
 {
   "name": "biubiu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scaffold for cls",
   "main": "index.js",
   "bin": {
