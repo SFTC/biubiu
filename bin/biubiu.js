@@ -7,7 +7,7 @@ const commander = require('commander')
 const chalk = require('chalk')
 const inquirer = require('inquirer')
 
-const config = require('../lib/init.conf')
+const config = require('../util/config').getConfig()
 const moduleModeConfig = config.getBasicConfig('module')
 
 const runGenerateModule = require('../lib/module')
