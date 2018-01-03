@@ -1,6 +1,6 @@
 {
   "name": "biubiu",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "scaffold for cls",
   "main": "index.js",
   "bin": {
@@ -30,8 +30,7 @@
     "eslint-friendly-formatter": "~3.0.0",
     "eslint-loader": "~1.7.1",
     "eslint-plugin-html": "~3.0.0",
-    "eslint-plugin-import": "~2.2.0",
-    "prettier-eslint": "^8.4.0"
+    "eslint-plugin-import": "~2.2.0"
   },
   "dependencies": {
     "async": "^2.6.0",
@@ -42,8 +41,10 @@
     "esprima": "^4.0.0",
     "estraverse": "^4.2.0",
     "fs": "^0.0.1-security",
+    "handlebars": "^4.0.11",
     "inquirer": "^4.0.2",
     "metalsmith": "^2.3.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "prettier-eslint": "^8.4.0"
   }
 }
