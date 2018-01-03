@@ -2,9 +2,7 @@ var inquirer = require('inquirer')
 var Metalsmith = require('metalsmith')
 var async = require('async')
 
-var utils = {};
-
-utils.ask = function (prompts) {
+var ask = function (prompts) {
   return function (files, metalsmith, callback){
     var metadata = metalsmith.metadata();
   
@@ -25,4 +23,4 @@ utils.ask = function (prompts) {
   }
 }
 
-module.exports = utils;
+module.exports = ask;

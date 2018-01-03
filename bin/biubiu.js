@@ -7,11 +7,11 @@ const commander = require('commander')
 const chalk = require('chalk')
 const inquirer = require('inquirer')
 
-const config = require('./init.conf')
+const config = require('../lib/init.conf')
 const moduleModeConfig = config.getBasicConfig('module')
 
-const runGenerateModule = require('./module')
-const runGeneratePage = require('./page')
+const runGenerateModule = require('../lib/module')
+const runGeneratePage = require('../lib/page')
 
 commander
   .version('0.1.0')
